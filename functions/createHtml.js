@@ -1,6 +1,6 @@
 function createHtml(jsonData) {
     var htmlString=`
-        <title>Black</title>
+        <title>home</title>
         <link rel="stylesheet" href="style.css">
         <body>
     `;
