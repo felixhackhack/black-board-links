@@ -13,7 +13,7 @@ async function requestAirtable(tableName) {
     try {
         const readRes = await airtable.read({
             maxRecords: 100,
-            sort: [{field: 'index', direction: "desc"}]
+            sort: [{field: 'index', direction: "desc"}, {field: 'name', direction: "asc"}]
         });
         return readRes;
     }
